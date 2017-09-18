@@ -1,5 +1,5 @@
-CXX = g++
-CXXFLAGS = -g -O3 -fopenmp -DMETHOD=1 -I/opt/intel/advisor_xe/include/
+CXX = icpc
+CXXFLAGS = -g -O3 -fopenmp -DMETHOD=1 -I/opt/intel/advisor/include/ -L/opt/intel/advisor/lib64
 MICFLAGS  = 
 HOSTFLAGS = 
 
